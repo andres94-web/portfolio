@@ -1,0 +1,38 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+.face-button {
+  $height: 24px;
+  $accentColor: #03BFCB;
+  
+  height: $height;
+  display: inline-block;
+  border: 1px solid $accentColor;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: $accentColor;
+  overflow: hidden;
+  border-radius: 3px;
+  
+  .icon {
+    margin-right: 3px;
+  }
+  
+  .face-primary,
+  .face-secondary {
+    display: block;
+    padding: 0 15px;
+    line-height: $height;
+    transition: margin .5s;
+  }
+  
+  .face-primary {
+    background-color: $accentColor;
+    color: #fff;
+  }
+  
+  &:hover .face-primary {
+    margin-top: -$height;
+  }
+}
