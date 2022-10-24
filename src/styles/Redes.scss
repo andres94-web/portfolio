@@ -14,16 +14,6 @@ $gradient      : #03BFCB;
     -webkit-transform: scale($size);
 }
 
-/* body {
-    background-color: rgba($iconColor, 0.05);
-} */
-
-/* .social-container {
-    width: 100px;
-    margin: 40vh auto;
-    text-align: center;
-} */
-
 .social-icons {
     padding: 0;
     list-style: none;
@@ -69,8 +59,6 @@ $gradient      : #03BFCB;
             color: $iconColor;
             background: -webkit-linear-gradient(45deg, $iconColor, $accent);
             background-clip: text;
-            /* -webkit-background-clip: text; */
-            /* -webkit-text-fill-color: transparent; */
             transition: all $timing ease-in;
         }
     }
