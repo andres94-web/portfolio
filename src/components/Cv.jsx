@@ -2,7 +2,7 @@ import "../styles/Cv.scss"
 
 function Cv() {
   return (
-    <a className="face-button" href="cv/CV_ALVARO_ANDRES_HURTADO_VALLECILLA.pdf" download>
+    <a className="face-button" href="cv/Mi cv.pdf" download>
       
       <div className="face-primary">
         <span className="icon fa fa-cloud"></span>
@@ -11,7 +11,7 @@ function Cv() {
   
       <div className="face-secondary">
         <span className="icon fa fa-hdd-o"></span>
-        Size: 205 KB
+        Size: 442 KB
       </div>
 
     </a>

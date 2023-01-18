@@ -6,10 +6,10 @@ function AboutMe() {
   return (
     <div className="card-container">
 		<span className="cv"><Cv/></span>
-		<img className="round" src={Foto} alt="mi photo" />
+		<img className="round" src={Foto} alt="mi foto" />
 		<h3>Andres Vallecilla</h3>
 		<h6>Colombia</h6>
-		<p>Desarrollador front-end y<br/>estudiante de ing en sistemas</p>
+		<p>Desarrollador Web y<br/>estudiante de ing en sistemas</p>
 
 		<div className="skills">
 			<h6>Skills</h6>
@@ -27,10 +27,11 @@ function AboutMe() {
 				<li>Api</li>
 			</ul>
 			
-			<h6>Skills in progress</h6>
+			<h6>Future skills and skills in progress</h6>
 			<ul>
 				<li>Java</li>
 				<li>UI / UX</li>
+				<li>Ciberseguridad</li>
 			</ul>
 		</div>
 	</div>
