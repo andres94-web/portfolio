@@ -22,7 +22,7 @@ function Proyectos() {
 
         <div className="grid-block">
          <div className="tile">
-            <a className="tile-link" href="https://chimerical-fenglisu-0caf72.netlify.app/" target="_blank">
+            <a className="tile-link" href="https://chimerical-fenglisu-0caf72.netlify.app/" target="_blank" rel="noreferrer">
            <img className="tile-img tile-img1" src={disney} alt="certificado de platzi"/>
             </a>
          </div>
@@ -31,7 +31,7 @@ function Proyectos() {
 
         <div className="grid-block">
           <div className="tile">
-           <a className="tile-link" href="https://cozy-elf-d274dc.netlify.app/" target="_blank">
+           <a className="tile-link" href="https://cozy-elf-d274dc.netlify.app/" target="_blank" rel="noreferrer">
            <img className="tile-img tile-img1" src={pokedex} alt="certificado de platzi"/>
            </a>
          </div>
@@ -40,7 +40,7 @@ function Proyectos() {
 
         <div className="grid-block">
          <div className="tile">
-           <a className="tile-link" href="https://silver-frangollo-a2122a.netlify.app/" target="_blank">
+           <a className="tile-link" href="https://silver-frangollo-a2122a.netlify.app/" target="_blank" rel="noreferrer">
            <img className="tile-img tile-img1" src={crud} alt="certificado de platzi"/>
             </a>
           </div>
@@ -49,7 +49,7 @@ function Proyectos() {
 
         <div className="grid-block">
          <div className="tile">
-           <a className="tile-link" href="https://brilliant-kataifi-508da7.netlify.app/" target="_blank">
+           <a className="tile-link" href="https://brilliant-kataifi-508da7.netlify.app/" target="_blank" rel="noreferrer">
            <img className="tile-img tile-img1" src={trivia} alt="certificado de platzi"/>
             </a>
           </div>
@@ -58,7 +58,7 @@ function Proyectos() {
 
         <div className="grid-block">
          <div className="tile">
-           <a className="tile-link" href="https://stellar-chebakia-2ac28d.netlify.app/" target="_blank">
+           <a className="tile-link" href="https://stellar-chebakia-2ac28d.netlify.app/" target="_blank" rel="noreferrer">
            <img className="tile-img tile-img1" src={triviaSonido} alt="certificado de platzi"/>
             </a>
           </div>

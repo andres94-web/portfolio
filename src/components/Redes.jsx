@@ -5,13 +5,13 @@ function Redes() {
     <ul className="social-icons">
 
       <li>
-        <a href="https://github.com/andres94-web" target="_blank">
+        <a href="https://github.com/andres94-web" target="_blank" rel="noreferrer">
           <i className="fa fa-github"></i>
         </a>
       </li>
 
       <li>
-        <a href="https://www.linkedin.com/in/alvaro-andres-hurtado-vallecilla-4a3761231/" target="_blank">
+        <a href="https://www.linkedin.com/in/alvaro-andres-hurtado-vallecilla-4a3761231/" target="_blank" rel="noreferrer">
           <i className="fa fa-linkedin"></i>
         </a>
       </li>
