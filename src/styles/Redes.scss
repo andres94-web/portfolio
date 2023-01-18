@@ -45,7 +45,7 @@ $gradient      : #03BFCB;
             height: 40px;
             border-radius: 100%;
             display: block;
-            background: linear-gradient(45deg, $iconColor, $accent);
+            /* background: linear-gradient(45deg, $iconColor, $accent); */
             transition: all $timing ease-out;
         }
         
@@ -57,7 +57,7 @@ $gradient      : #03BFCB;
         &:hover i {
             @include transformScale(2.2);
             color: $iconColor;
-            background: -webkit-linear-gradient(45deg, $iconColor, $accent);
+            /* background: -webkit-linear-gradient(45deg, $iconColor, $accent); */
             background-clip: text;
             transition: all $timing ease-in;
         }
