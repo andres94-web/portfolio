@@ -13,7 +13,7 @@ function Proyectos() {
 
         <div className="grid-block">
          <div className="tile">
-            <a className="tile-link" href="https://cool-sunflower-51cbe7.netlify.app/" target="_blank">
+            <a className="tile-link" href="https://cool-sunflower-51cbe7.netlify.app/" target="_blank" rel="noreferrer">
              <img className="tile-img tile-img1" src={instagram} alt="certificado de academlo"/>
            </a>
          </div>
