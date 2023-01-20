@@ -9,7 +9,17 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #1b172c;
+    /* background-color: #1b172c; */
+    background: linear-gradient(45deg, currentColor, transparent);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+  }
+
+  @keyframes cambiar{
+      0%{background-position:0 50% ;}
+      50%{background-position:100% 50% ;}
+      100%{background-position:0 50% ;}
   }
   
   @function random_range($min, $max) {
